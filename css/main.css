@@ -56,18 +56,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.red-font {
+    color: red;
+}
+
+li.red-font ~ li{
+    display: none;
+}
+
+label[for="id-1"] {
+    font-size: 5vh;
+}
+
+input {
+    display: block;
+}
+
+input[type="checkbox"].hidden123 {
+    display: none;
+}
 
 
 
+label.red-font {
 
+}
 
-
-
-
-
-
-
-
+label, 
+.red-font
+{
+    font-family: roboto;
+}
 
 
 /* ==========================================================================
